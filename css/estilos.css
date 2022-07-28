@@ -95,3 +95,10 @@ main{
     font-weight: bold;
 
 }
+.titulo__cabaña{
+    text-align: center;
+    text-transform: uppercase;
+}
+.cabañas{
+    margin: 10px 20px 10px 50px;
+}
