@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.menu{
+    margin-left: 20px;
+    padding-left: 15px;
+
+    
+}
+
+.titulo{
+margin-left: 20px;
+font-size: 30px;
+color: black;
+
+}
+
+
+
+
+body{
+    background-image: linear-gradient(45deg, #f1f6f8 0%, #ace0f9 100%);
+   
+}
+
+main{
+    margin-top: 100px;
+
+}
+
+.pie{
+    background-color:skyblue ;
+    display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding-top: 10px;
+   padding-left: 10px;
+
+}
+
+
+.pie__red{
+ display: flex;
+
+}
+.pie__red--uno{
+    display: flex;
+   margin: 10px;
+}
+
+
+
+
+
+.redes__img{
+  
+   margin-right: 10px;
+}
+
+.redes__img--insta{
+    height: 25px;
+
+}
+.redes__img--wap{
+    
+    height: 25px;
+    
+    
+   
+}
+.redes__img--maps{
+    height: 30px;
+   
+}
+
+.map{
+   
+
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+
+   }
+
+.ubi{
+    font-weight: bold;
+
+}
