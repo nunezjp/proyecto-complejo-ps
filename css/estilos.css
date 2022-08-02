@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
+body{
+    background-image: linear-gradient(65deg, #bccbd1 0%, #80caec 100%);
+   
+}
+>>>>>>> segunda-version
 
 .logo{
     width: 50px;
@@ -25,6 +32,7 @@ color: black;
 }
 
 
+<<<<<<< HEAD
 
 
 body{
@@ -32,10 +40,48 @@ body{
    
 }
 
+=======
+>>>>>>> segunda-version
 main{
     margin-top: 100px;
 
 }
+<<<<<<< HEAD
+=======
+.sobre{
+    margin-top: 50px;
+}
+
+
+
+
+.map{
+   display: flex;
+   
+justify-content: end;  
+ margin-top: 10px;
+   margin-bottom: 10px;
+   
+
+   }
+
+.ubi{
+    font-weight: bold;
+
+}
+
+.titulo__cabaña{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.cabañas{
+    margin: 10px 20px 10px 50px;
+}
+
+>>>>>>> segunda-version
 
 .pie{
     background-color:skyblue ;
@@ -82,6 +128,7 @@ main{
    
 }
 
+<<<<<<< HEAD
 .map{
    
 
@@ -102,3 +149,54 @@ main{
 .cabañas{
     margin: 10px 20px 10px 50px;
 }
+=======
+.titulo__cabaña{
+    color:papayawhip;
+    font-family: cursive;
+    margin-bottom: 40px;
+ }
+ 
+
+@media  (  max-width: 425px){
+.logo{
+    width: 30px;
+    height: 30px;
+}
+    
+    .titulo{
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    
+    .cabañas{
+        margin: 10px;
+    }
+ 
+   
+   .ubi{
+    font-size: 15px;
+    font-weight: bolder;
+   }
+    .logo__dos{
+      height: 30px;
+      width: 30px;
+    }
+    .redes__img--insta{
+        height: 20px;
+    
+    }
+    .redes__img--wap{
+        
+        height: 20px;
+        
+        
+       
+    }
+    .redes__img--maps{
+        height: 25px;
+       
+    }
+
+}
+    
+>>>>>>> segunda-version
