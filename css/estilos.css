@@ -143,19 +143,27 @@ justify-content: end;
     width: 30px;
     height: 30px;
 }
+main{
+    margin-top: 70px;
+}
     
     .titulo{
         font-size: 13px;
         margin-right: 10px;
     }
-    
+    .sobre{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     .cabañas{
         margin: 10px;
     }
+
  
 
    
-   .ubi{
+   .ubicacion{
     font-size: 15px;
     font-weight: bolder;
    }
@@ -185,5 +193,13 @@ justify-content: end;
     font-family: cursive;
     font-size: 20px;
 }
+.mapa{
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: start;  
+  margin: 20px 10px 20px 10px;
+    
+ 
+    }
 }
     
