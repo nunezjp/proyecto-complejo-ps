@@ -1,210 +1,130 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+@charset "UTF-8";
+.logo {
+  width: 50px;
+  height: 50px;
 }
 
-a{
-    color: inherit;
+.menu {
+  margin-left: 20px;
+  padding-left: 15px;
 }
 
-body{
-    background-image: linear-gradient(65deg, #bccbd1 0%, #80caec 100%);
-   
+.titulo {
+  margin-left: 20px;
+  font-size: 30px;
+  color: black;
 }
 
-.logo{
-    width: 50px;
-    height: 50px;
+.sobre {
+  margin-top: 50px;
 }
 
-.menu{
-    margin-left: 20px;
-    padding-left: 15px;
-
-    
+.titulo__cabaña {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-family: cursive;
+  margin-bottom: 10px;
 }
 
-.titulo{
-margin-left: 20px;
-font-size: 30px;
-color: black;
-
+.cabañas {
+  margin: 10px 20px 10px 50px;
 }
 
-
-
-
-
-main{
-    margin-top: 100px;
-
-}
-.sobre{
-    margin-top: 50px;
+.mapa {
+  display: flex;
+  justify-content: end;
+  margin: 20px;
 }
 
-
-
-
-.map{
-   display: flex;
-   
-justify-content: end;  
- margin-top: 10px;
-   margin-bottom: 10px;
-   
-
-   }
-
-.ubi{
-    font-weight: bold;
-
+.pie {
+  background-color: skyblue;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
-.titulo__cabaña{
-    text-align: center;
-    text-transform: uppercase;
-    color:black;
-    font-family: cursive;
-    margin-bottom: 10px;
+.pie__red {
+  display: flex;
 }
 
-
-
-
-.cabañas{
-    margin: 10px 20px 10px 50px;
+.pie__red--uno {
+  display: flex;
+  margin: 10px;
 }
 
-
-.pie{
-    background-color:skyblue ;
-    display: flex;
-   width: 100%;
-   justify-content: space-between;
-   padding-top: 10px;
-   padding-left: 10px;
-
+.ubicacion {
+  font-weight: bold;
 }
 
-  
-.cabañas{
-    margin: 10px 20px 10px 50px;
+.redes {
+  margin-right: 10px;
 }
 
-
-
-.pie__red{
- display: flex;
-
-}
-.pie__red--uno{
-    display: flex;
-   margin: 10px;
+.redes__img--insta {
+  height: 25px;
 }
 
-
-
-.redes__img{
-  
-   margin-right: 10px;
+.redes__img--wap {
+  height: 25px;
 }
 
-.redes__img--insta{
-    height: 25px;
-
-}
-.redes__img--wap{
-    
-    height: 25px;
-    
-    
-   
-}
-.redes__img--maps{
-    height: 30px;
-   
+.redes__img--maps {
+  height: 30px;
 }
 
-.mapa{
-   
-   display: flex;
-   justify-content: end;
-   margin: 20px;
-   
-   
-
-   }
-
-.ubi{
-    font-weight: bold;
-
-}
-
-
-@media  (  max-width: 425px){
-.logo{
+@media (max-width: 425px) {
+  .logo {
     width: 30px;
     height: 30px;
-}
-main{
+  }
+  main {
     margin-top: 70px;
-}
-    
-    .titulo{
-        font-size: 13px;
-        margin-right: 10px;
-    }
-    .sobre{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .cabañas{
-        margin: 10px;
-    }
-
- 
-
-   
-   .ubicacion{
+  }
+  .titulo {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  .sobre {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .cabañas {
+    margin: 10px;
+  }
+  .ubicacion {
     font-size: 15px;
     font-weight: bolder;
-   }
-    .logo__dos{
-      height: 30px;
-      width: 30px;
-    }
-    .redes__img--insta{
-        height: 20px;
-    
-    }
-    .redes__img--wap{
-        
-        height: 20px;
-        
-        
-       
-    }
-    .redes__img--maps{
-        height: 25px;
-       
-    }
-.titulo__cabaña{
+  }
+  .logo__dos {
+    height: 30px;
+    width: 30px;
+  }
+  .redes {
+    margin-right: 10px;
+  }
+  .redes__img--insta {
+    height: 20px;
+  }
+  .redes__img--wap {
+    height: 20px;
+  }
+  .redes__img--maps {
+    height: 25px;
+  }
+  .titulo__cabaña {
     text-align: center;
     text-transform: uppercase;
-    color:black;
+    color: black;
     font-family: cursive;
     font-size: 20px;
-}
-.mapa{
+  }
+  .mapa {
     display: flex;
     flex-wrap: wrap;
- justify-content: start;  
-  margin: 20px 10px 20px 10px;
-    
- 
-    }
+    justify-content: start;
+    margin: 20px 10px 20px 10px;
+  }
 }
-    

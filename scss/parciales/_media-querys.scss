@@ -33,21 +33,25 @@
           height: 30px;
           width: 30px;
         }
-        .redes__img--insta{
-            height: 20px;
-        
-        }
-        .redes__img--wap{
+        .redes {
+            margin-right: 10px;
+            &__img--insta{
+                height: 20px;
             
-            height: 20px;
-            
-            
-           
-        }
-        .redes__img--maps{
-            height: 25px;
-           
-        }
+            }
+            &__img--wap{
+                
+                height: 20px;
+                
+                
+               
+            }
+            &__img--maps{
+                height: 25px;
+               
+            }
+          }
+       
     .titulo__cabaña{
         text-align: center;
         text-transform: uppercase;

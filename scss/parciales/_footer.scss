@@ -10,6 +10,14 @@
    justify-content: space-between;
    padding-top: 10px;
    padding-left: 10px;
+   &__red{
+    display: flex;
+   
+   }
+   &__red--uno{
+       display: flex;
+      margin: 10px;
+   }
 
 }
 
@@ -20,34 +28,28 @@
 }
 
 
-.pie__red{
- display: flex;
-
-}
-.pie__red--uno{
-    display: flex;
-   margin: 10px;
-}
 
 
 
-.redes__img{
+
+.redes{
   
    margin-right: 10px;
-}
 
-.redes__img--insta{
+&__img--insta{
     height: 25px;
 
 }
-.redes__img--wap{
+&__img--wap{
     
     height: 25px;
     
     
    
 }
-.redes__img--maps{
+&__img--maps{
     height: 30px;
    
 }
+}
+
