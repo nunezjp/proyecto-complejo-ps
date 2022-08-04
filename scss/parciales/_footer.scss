@@ -1,0 +1,53 @@
+
+
+
+
+
+.pie{
+    background-color:skyblue ;
+    display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding-top: 10px;
+   padding-left: 10px;
+
+}
+
+  
+.ubicacion{
+    font-weight: bold;
+
+}
+
+
+.pie__red{
+ display: flex;
+
+}
+.pie__red--uno{
+    display: flex;
+   margin: 10px;
+}
+
+
+
+.redes__img{
+  
+   margin-right: 10px;
+}
+
+.redes__img--insta{
+    height: 25px;
+
+}
+.redes__img--wap{
+    
+    height: 25px;
+    
+    
+   
+}
+.redes__img--maps{
+    height: 30px;
+   
+}

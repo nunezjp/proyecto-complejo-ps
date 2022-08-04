@@ -1,0 +1,66 @@
+
+
+@media  (  max-width: 425px){
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+    main{
+        margin-top: 70px;
+    }
+        
+        .titulo{
+            font-size: 13px;
+            margin-right: 10px;
+        }
+        .sobre{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        .cabañas{
+            margin: 10px;
+        }
+    
+     
+    
+       
+       .ubicacion{
+        font-size: 15px;
+        font-weight: bolder;
+       }
+        .logo__dos{
+          height: 30px;
+          width: 30px;
+        }
+        .redes__img--insta{
+            height: 20px;
+        
+        }
+        .redes__img--wap{
+            
+            height: 20px;
+            
+            
+           
+        }
+        .redes__img--maps{
+            height: 25px;
+           
+        }
+    .titulo__cabaña{
+        text-align: center;
+        text-transform: uppercase;
+        color:black;
+        font-family: cursive;
+        font-size: 20px;
+    }
+    .mapa{
+        display: flex;
+        flex-wrap: wrap;
+     justify-content: start;  
+      margin: 20px 10px 20px 10px;
+        
+     
+        }
+    }
