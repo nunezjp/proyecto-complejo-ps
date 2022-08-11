@@ -1,0 +1,5 @@
+En el archivo index.html sume el SEO con las siguientes caracteristicas:
+
+* Descripcion:mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio:"Alojate en las cabañas del Complejo Punta Soberana y encontra las mayores comodidades en un solo lugar"
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "CABAÑAS, ALOJAMIENTO, RESERVAS, COMPLEJO, PUNTA SOBERANA, HABITACION, ALQUILER, CANCHAS, PET FRIENDLY"
