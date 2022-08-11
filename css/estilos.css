@@ -79,15 +79,11 @@ main{
   font-weight: bold;
 }
 
-.redes {
-  margin-right: 10px;
-}
-
-.redes__img--insta {
+.redes__img--wap {
   height: 25px;
 }
 
-.redes__img--wap {
+.redes__img--insta {
   height: 25px;
 }
 

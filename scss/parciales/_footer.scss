@@ -31,25 +31,14 @@
 
 
 
-
-.redes{
-  
-   margin-right: 10px;
-
-&__img--insta{
-    height: 25px;
-
-}
-&__img--wap{
-    
-    height: 25px;
-    
-    
-   
-}
-&__img--maps{
-    height: 30px;
-   
-}
+$redes:( 
+    wap: 25px,
+    insta: 25px,
+    maps: 30px
+);
+@each $clave, $valor in $redes{
+    .redes__img--#{$clave} {
+      height:$valor;  
+    }
 }
 
