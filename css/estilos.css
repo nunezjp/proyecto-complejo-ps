@@ -39,6 +39,25 @@ main{
   margin-top: 50px;
 }
 
+.titulo__contacto {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 25px;
+}
+
+.titulo__confiteria {
+  text-align: center;
+  color: black;
+  margin-left: 28px;
+  margin-top: 25px;
+}
+
+.confiteria {
+  width: 800px;
+  height: 300px;
+}
+
 .titulo__cabaña {
   text-align: center;
   text-transform: uppercase;
@@ -109,6 +128,10 @@ main{
   }
   .cabañas {
     margin: 10px;
+  }
+  .confiteria {
+    height: 100%;
+    width: 100%;
   }
   .ubicacion {
     font-size: 15px;
